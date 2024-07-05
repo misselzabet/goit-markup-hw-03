@@ -13,7 +13,9 @@ ul, ol {
 
 
 
-
+img {
+   display:block;
+}
 body {
          background-color:#ffffff;
          font-size: 16px;
@@ -36,6 +38,7 @@ body {
    display:flex;
 flex-direction: row;
 gap: 20px;
+border-bottom: 1px solid #e7e9fc;
 }
 .first-link-logo {
     text-decoration: none;
@@ -170,10 +173,6 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-.trap {
-display:block;
-gap: 40px;
 }
 
 
