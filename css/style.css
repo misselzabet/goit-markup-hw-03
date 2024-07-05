@@ -68,7 +68,8 @@ margin-left: 191px;
    border: 2px #2E2F42 solid;
 }
 .webstudio {
-  
+  display: flex;
+  align-items: center;
 }
  span{color: #2e2f42; }
 
