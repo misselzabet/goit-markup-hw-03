@@ -84,6 +84,7 @@ font-weight: 500;
    letter-spacing: 0.02em;
    padding:24px 0;
    border: 1px #2E2F42 solid;
+   gap: 40px;
  }
 .link:hover, .link:focus{
     color: #404BBF;
@@ -96,9 +97,7 @@ font-weight: 500;
    font-style: normal;
    
 }
-.tel:last-child {
-   margin-right: 0;
- }
+
 .tel{
    display: flex;
    flex-direction: row;
