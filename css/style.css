@@ -294,8 +294,9 @@ margin-bottom: 8px;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-style: normal;
+      display: inline-block;
        margin-bottom: 16px;
-       display: inline-block;
+      
  }
  .second-studio{
    color:#f4f4fd;
