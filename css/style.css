@@ -297,7 +297,7 @@ margin-bottom: 8px;
         font-weight: 700;
         font-style: normal;
        margin-bottom: 16px;
-       
+       display: inline-block;
  }
  .second-studio{
    color:#f4f4fd;
