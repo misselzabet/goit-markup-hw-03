@@ -116,6 +116,7 @@ font-weight: 500;
  .second-line {
     background-color: green ;
     color:#ffffff;
+    padding: 188px 0 ;
  }
 
  .second-line .text {
