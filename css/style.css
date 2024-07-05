@@ -104,6 +104,7 @@ font-weight: 500;
    border: 1px #2E2F42 solid;
    gap: 40px;
 }
+
   .link-contacts {
   
      text-decoration: none;
@@ -142,9 +143,8 @@ font-weight: 500;
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
-    letter-spacing: 0.04em;
     min-width:169px;
-    height: 56px;
+    height:56px;
     gap: 10px;
     margin: 0 636px 116px 636px;
     padding: 188px 0 ;
@@ -165,9 +165,16 @@ padding: 120px 0;
  .benefits-title {
    
  }
- .benefits-title .visually-hidden {
-   position: fixed;
-   transform: scale(0);
+ 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   border: 0;
  }
  .benefits-line{
    width: calc((100% - 72px) / 4);
