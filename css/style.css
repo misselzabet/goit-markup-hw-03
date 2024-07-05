@@ -254,7 +254,7 @@ margin-bottom: 8px;
 
 .our-portfolio-line {
    background-color: #ffffff;
-   width: calc((100% - 48px) / 3); 
+   width:calc( ( 100% - 48px ) /3 ) ;
    font-weight: 500;
 }
 
