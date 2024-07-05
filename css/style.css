@@ -50,6 +50,11 @@ border-bottom: 1px solid #e7e9fc;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-style: normal;
+        padding: 0;
+        margin-right: 76px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
 }
 
 .first-line-contact {
@@ -63,11 +68,7 @@ margin-left: 191px;
    border: 2px #2E2F42 solid;
 }
 .webstudio {
-   padding: 0;
-   margin-right: 76px;
-   display: flex;
-   align-items: center;
-   gap: 40px;
+  
 }
  span{color: #2e2f42; }
 
@@ -98,6 +99,7 @@ font-weight: 500;
    display: flex;
    flex-direction: row;
    border: 1px #2E2F42 solid;
+   gap: 40px;
 }
   .link-contacts {
   
