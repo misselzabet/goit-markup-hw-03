@@ -157,7 +157,10 @@ font-weight: 500;
 }
 
 
-   
+   .benefits { 
+ font-weight: 400px;
+padding: 120px 0;
+ }
 
  .benefits-item {
  font-size: 20px;
@@ -171,10 +174,10 @@ color: #2E2F42;
 
 }
 
-.benefits { 
- font-weight: 400px;
-
- }
+.benefits-table {
+   display: flex;
+   gap: 24px;
+}
  .our-team {
    background-color: #F4F4FD;
    padding: 120px 0 ;
