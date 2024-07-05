@@ -162,6 +162,9 @@ font-weight: 500;
 padding: 120px 0;
  }
 
+ .benefits-title {
+   overflow: hidden;
+ }
  .benefits-line{
    width: calc((100% - 72px) / 4);
  }
