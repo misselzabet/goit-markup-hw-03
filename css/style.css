@@ -229,8 +229,11 @@ color: #2E2F42;
     background-color:#2E2F42;
     color: #F4F4FD;
     padding: 100px 0;
-
  }
+.last-line .second-link-logo {
+   display: inline-block;
+} 
+
  .second-link-logo{
    text-decoration: none;
         color: #4d5ae5;
@@ -243,7 +246,7 @@ color: #2E2F42;
         font-weight: 700;
         font-style: normal;
        margin-bottom: 16px;
-        display: inline-block;
+       
  }
  .second-studio{
    color:#f4f4fd;
