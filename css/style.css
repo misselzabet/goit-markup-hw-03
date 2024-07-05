@@ -193,13 +193,20 @@ margin-bottom: 8px;
    background-color: #F4F4FD;
    padding: 120px 0 ;
  }
- .our-team-title { font-size: 36px;
+ .our-team-table {
+   display: flex;
+   gap: 24px;
+ }
+ .our-team-line { font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px; 
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
    
 }
 
