@@ -163,7 +163,11 @@ padding: 120px 0;
  }
 
  .benefits-title {
-   visibility: hidden;
+   
+ }
+ .benefits-title .visually-hidden {
+   position: fixed;
+   transform: scale(0);
  }
  .benefits-line{
    width: calc((100% - 72px) / 4);
