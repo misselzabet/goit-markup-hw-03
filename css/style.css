@@ -64,8 +64,10 @@ margin-left: 191px;
 }
 .webstudio {
    padding: 0;
+   margin-right: 76px;
    display: flex;
    align-items: center;
+   gap: 40px;
   
 }
  span{color: #2e2f42; }
@@ -79,7 +81,7 @@ margin-left: 191px;
 color: #2e2f42 ;
 font-weight: 500;
    letter-spacing: 0.02em;
-   padding-left: 66px;
+   padding:24px 0;
    border: 1px #2E2F42 solid;
  }
 .link:hover, .link:focus{
