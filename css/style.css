@@ -163,7 +163,7 @@ padding: 120px 0;
  }
 
  .benefits-title {
-   overflow: hidden;
+   visibility: hidden;
  }
  .benefits-line{
    width: calc((100% - 72px) / 4);
