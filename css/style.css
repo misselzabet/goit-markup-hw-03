@@ -61,7 +61,22 @@ border-bottom: 1px solid #e7e9fc;
   gap: 40px;
 }
 /* delete */
+.logo{
+   display: flex;
+   flex-direction: row;
+   border: 2px #2E2F42 solid;
+}
+.webstudio {
+  display: flex;
+  align-items: center;
+}
+ span{color: #2e2f42; }
 
+.first-container {
+   display: flex;
+   flex-direction: row;
+   padding-left: 83px;
+}
 /* delete */
  .link  { text-decoration: none;
 color: #2e2f42 ;
@@ -151,16 +166,7 @@ padding: 120px 0;
   margin-bottom: 72px;
  }
  
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   padding: 0;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   border: 0;
- }
+
  .benefits-table {
    display: flex;
    gap: 24px;
