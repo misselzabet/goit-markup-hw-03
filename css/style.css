@@ -61,22 +61,7 @@ border-bottom: 1px solid #e7e9fc;
   gap: 40px;
 }
 /* delete */
-.logo{
-   display: flex;
-   flex-direction: row;
-   border: 2px #2E2F42 solid;
-}
-.webstudio {
-  display: flex;
-  align-items: center;
-}
- span{color: #2e2f42; }
 
-.first-container {
-   display: flex;
-   flex-direction: row;
-   padding-left: 83px;
-}
 /* delete */
  .link  { text-decoration: none;
 color: #2e2f42 ;
