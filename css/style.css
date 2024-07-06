@@ -29,7 +29,7 @@ body {
    width: 1158px;
    padding:0 15px;
    margin:0 auto;
-
+   display: flex;
    }
    
 .top-line {
@@ -129,7 +129,7 @@ font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     margin: 0 auto 88px ;
-    max-width: 800;
+    max-width: 496px;
  }
 .butt{
    cursor:pointer;
@@ -145,6 +145,7 @@ font-weight: 500;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
+    display: block; 
 }
  .butt:hover, .butt:focus
 {
@@ -317,6 +318,9 @@ margin-bottom: 8px;
  }
  .second-studio{
    color:#f4f4fd;
+ }
+ .last-line a {
+   display: inline-block;
  }
  .last-line p {
    font-size: 16px;
