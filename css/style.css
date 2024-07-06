@@ -303,25 +303,24 @@ margin-bottom: 8px;
     text-align: center;
  }
 
- .second-link-logo{
+ .second-link-logo {
    text-decoration: none;
-        color: #4d5ae5;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        font-size: 18px;
-        line-height: 1.17;
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-       margin-bottom: 16px;
-       display: inline-block;
+   color: #4d5ae5;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.03em;
+   font-size: 18px;
+   line-height: 1.17;
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   margin-bottom: 16px;
+   display: inline-block;
  }
  .second-studio{
    color:#f4f4fd;
  }
  
- .last-line p {
+ .footer-paragraph {
    font-size: 16px;
    line-height: 1.5;
    margin-top: 16px;
