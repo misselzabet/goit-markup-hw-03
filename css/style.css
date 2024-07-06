@@ -125,16 +125,7 @@ font-weight: 500;
     text-align: center;
  }
 
- .visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   padding: 0;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   border: 0;
- }
+ 
  .second-line .text {
    letter-spacing: 0.02em;
     font-weight: 700;
@@ -170,6 +161,7 @@ font-weight: 500;
 padding: 120px 0;
  }
 
+
  .benefits-title {
    text-align: center;
   font-size: 36px;
@@ -177,7 +169,16 @@ padding: 120px 0;
   margin-bottom: 72px;
  }
  
-
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   border: 0;
+ }
  .benefits-table {
    display: flex;
    gap: 24px;
