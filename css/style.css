@@ -29,6 +29,7 @@ body {
    width: 1158px;
    padding:0 15px;
    margin:0 auto;
+   display: flex;
    }
    
 .top-line {
@@ -168,17 +169,7 @@ padding: 120px 0;
   font-weight: 700;
   margin-bottom: 72px;
  }
- 
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   padding: 0;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   border: 0;
- }
+
  .benefits-table {
    display: flex;
    gap: 24px;
@@ -229,6 +220,7 @@ margin-bottom: 8px;
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+    overflow: hidden;
    
 }
 
@@ -238,7 +230,9 @@ margin-bottom: 8px;
 }
 
 .our-team-text {
-   padding: 32px 16px;
+   padding: 32px 0;
+   border: 1px solid #e7e9fc; 
+   border-top: none;
 }
 .our-team-item {
    margin-bottom: 8px;
