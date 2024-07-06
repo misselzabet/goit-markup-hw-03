@@ -95,6 +95,7 @@ font-weight: 500;
    font-style: normal;
    display: flex;
    flex-direction: column;
+   gap: 40px;
 }
 
 .tel{
@@ -320,7 +321,7 @@ margin-bottom: 8px;
    color:#f4f4fd;
  }
  .last-line a {
-   display: inline-block;
+display: inline-block;
  }
  .last-line p {
    font-size: 16px;
