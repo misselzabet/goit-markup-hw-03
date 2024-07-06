@@ -29,13 +29,12 @@ body {
    width: 1158px;
    padding:0 15px;
    margin:0 auto;
-   display: flex;
 
    }
    
 .top-line {
    display:flex;
-flex-direction: row;
+   justify-content: space-between;
 gap: 20px;
 border-bottom: 1px solid #e7e9fc;
 }
@@ -54,14 +53,14 @@ border-bottom: 1px solid #e7e9fc;
         margin-right: 76px;
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 10px;
 }
 
 .first-line-contact {
    display: flex;
-   flex-direction: row;
-margin-left: 191px;
+  gap: 40px;
 }
+/* delete */
 .logo{
    display: flex;
    flex-direction: row;
@@ -78,13 +77,12 @@ margin-left: 191px;
    flex-direction: row;
    padding-left: 83px;
 }
+/* delete */
  .link  { text-decoration: none;
 color: #2e2f42 ;
 font-weight: 500;
    letter-spacing: 0.02em;
    padding:24px 0;
-   border: 1px #2E2F42 solid;
-   gap: 40px;
  }
 .link:hover, .link:focus{
     color: #404BBF;
@@ -95,14 +93,14 @@ font-weight: 500;
  }
 .contacts {
    font-style: normal;
-   
+   display: flex;
+   flex-direction: column;
 }
 
 .tel{
    display: flex;
-   flex-direction: row;
-   border: 1px #2E2F42 solid;
-   gap: 40px;
+   flex-direction: column;
+   gap: 10px;
 }
 
   .link-contacts {
@@ -111,7 +109,6 @@ font-weight: 500;
      color: inherit;
      letter-spacing: 0.02em;
      font-weight: 400;
-  
   }
 
   .link-contacts:hover,
@@ -123,16 +120,16 @@ font-weight: 500;
     background-color: #2E2F42 ;
     color:#ffffff;
     padding: 188px 0 ;
+    text-align: center;
  }
 
  .second-line .text {
    letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 56px;
-    text-align: center;
     line-height: 1.07;
-    padding: 188px 472px 88px 472px;
-    max-width: 496px;
+    margin: 0 auto 88px ;
+    max-width: 800;
  }
 .butt{
    cursor:pointer;
@@ -145,9 +142,7 @@ font-weight: 500;
     line-height: 1.5;
     min-width:169px;
     height:56px;
-    gap: 10px;
-    margin: 0 636px 116px 636px;
-    padding: 188px 0 ;
+    padding: 16px 32px;
     border: none;
     border-radius: 4px;
 }
@@ -163,7 +158,10 @@ padding: 120px 0;
  }
 
  .benefits-title {
-   
+   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 72px;
  }
  
 .visually-hidden {
@@ -176,6 +174,10 @@ padding: 120px 0;
    clip: rect(0, 0, 0, 0);
    border: 0;
  }
+ .benefits-table {
+   display: flex;
+   gap: 24px;
+}
  .benefits-line{
    width: calc((100% - 72px) / 4);
  }
@@ -192,12 +194,12 @@ margin-bottom: 8px;
 
 }
 
-.benefits-table {
-   display: flex;
-   gap: 24px;
-}
+
 .our-team-title{
    margin-bottom: 72px;
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
 }
  .our-team {
    background-color: #F4F4FD;
@@ -215,27 +217,31 @@ margin-bottom: 8px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px; 
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     font-weight: 400px;
     background-color: #F4F4FD;
     display: flex;
     flex-direction: row;
-    background-color: greenyellow;
+    background-color: #ffffff;
    
 }
 
-
-
-.first-image{
-   display: flex;
-   flex-direction: row;
+.our-team-line img {
+   width: 100%;
+  height: auto;
 }
+
 .our-team-text {
    padding: 32px 0 ;
 }
 .our-team-item {
    margin-bottom: 8px;
+   font-size: 20px;
+   line-height: 1.2;
+   font-weight: 500;
+   letter-spacing: 0.02em;
+   color: #2E2F42;
 }
 
 .our-portfolio {
@@ -255,13 +261,17 @@ margin-bottom: 8px;
    font-size: 36px;
    line-height: 1.11;
    font-weight: 700;
-  
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .our-portfolio-line {
    background-color: #ffffff;
-   width:calc( ( 100% - 48px ) /3 ) ;
+   width: calc(( 100% - 48px) /3);
    font-weight: 500;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+   overflow: hidden;
 }
 
 
@@ -273,7 +283,10 @@ margin-bottom: 8px;
    color:#2E2F42;
    margin-bottom: 8px;
 }
-
+.our-portfolio-line img {
+   width: 100%;
+   height: auto;
+ }
 .our-portfolio-text {
    padding: 32px 16px;
    border: 1px solid #e7e9fc; 
@@ -285,7 +298,7 @@ margin-bottom: 8px;
     background-color:#2E2F42;
     color: #F4F4FD;
     padding: 100px 0;
-    
+    text-align: center;
  }
 
  .second-link-logo{
@@ -299,10 +312,15 @@ margin-bottom: 8px;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-style: normal;
-      display: inline-block;
        margin-bottom: 16px;
       
  }
  .second-studio{
    color:#f4f4fd;
+ }
+ .last-line p {
+   font-size: 16px;
+   line-height: 1.5;
+   margin-top: 16px;
+   color: #F4F4FD;
  }
