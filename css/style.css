@@ -252,10 +252,15 @@ link:focus {
    background-color: ##F4F4FD;
 }
 
+.our-portfolio{
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
 .our-portfolio-title {
    font-size: 36px;
    line-height: 1.11;
    font-weight: 700;
+   margin-bottom: 72px;
 }
 
 .our-portfolio-table {
@@ -268,7 +273,7 @@ link:focus {
 }
 
 .our-portfolio-line {
-   width: calc((100% - 48px) / 3);
+   width:calc((100% - 48px) / 3);
 
 }
 
