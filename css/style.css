@@ -119,6 +119,7 @@ link:focus {
    font-style: normal;
    letter-spacing: 0.02em;
    display: block;
+   gap: 40px;
 }
 
 .link-contacts:hover,
