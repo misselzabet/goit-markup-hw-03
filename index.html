@@ -28,32 +28,34 @@
 
   <body>
     <header class="top-line">
-      <nav>
-        <a href="./index.html" class="first-link-logo">
-          Web<span> Studio</span>
-        </a>
+      <div class="container">
+        <nav class="webstudio">
+          <a href="./index.html" class="first-link-logo">
+            Web<span>Studio</span>
+          </a>
 
-        <ul>
-          <li><a href="./index.html" class="link"> Studio </a></li>
-          <li><a href="" class="link"> Portfolio </a></li>
-          <li><a href="" class="link">Contacts</a></li>
-        </ul>
-      </nav>
+          <ul class="first-line-contact">
+            <li><a href="./index.html" class="link"> Studio </a></li>
+            <li><a href="" class="link"> Portfolio </a></li>
+            <li><a href="" class="link">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="contacts">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-contacts"
-              >info@devstudio.com<br />
-            </a>
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link-contacts"
-              >+11 (000) 111-11-11<br />
-            </a>
-          </li>
-        </ul>
-      </address>
+        <address class="contacts">
+          <ul class="tel">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link-contacts"
+                >info@devstudio.com<br />
+              </a>
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link-contacts"
+                >+11 (000) 111-11-11<br />
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="second-line">
@@ -62,22 +64,22 @@
       </section>
       <section class="benefits">
         <h2 class="benefits-title">Benefits</h2>
-        <ul>
-          <li>
+        <ul class="benefits-table">
+          <li class="benefits-line">
             <h3 class="benefits-item">Strategy</h3>
             <p class="benefits-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="benefits-line">
             <h3 class="benefits-item">Punctuality</h3>
             <p class="benefits-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="benefits-line">
             <h3 class="benefits-item">Diligence</h3>
             <p class="benefits-text">
               Research and confirm brands that present the strongest digital
@@ -85,7 +87,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="benefits-line">
             <h3 class="benefits-item">Technologies</h3>
             <p class="benefits-text">
               Design practice focused on digital experiences. We bring forth a
@@ -97,109 +99,128 @@
 
       <section class="our-team">
         <h2 class="our-team-title">Our Team</h2>
-        <ul>
-          <li class="our-team-text">
+        <ul class="our-team-table">
+          <li class="our-team-line">
             <img
               src="./images/img1.jpg"
               alt="man-with-laptop-presenting-something.png"
               width="264"
             />
-            <h3 class="benefits-item">Mark Guerrero</h3>
-            <p class="our-team-paragraf">Product Designer</p>
+            <div class="our-team-text">
+              <h3 class="our-team-item">Mark Guerrero</h3>
+              <p class="our-team-paragraf">Product Designer</p>
+            </div>
           </li>
-          <li class="our-team-text">
+          <li class="our-team-line">
             <img
               src="./images/img2.jpg"
               alt="MAN-in-a-shirt-smiling "
               width="264"
             />
-            <h3 class="benefits-item">Tom Ford</h3>
-            <p class="our-team-paragraf">Frontend Developer</p>
+            <div class="our-team-text">
+              <h3 class="our-team-item">Tom Ford</h3>
+              <p class="our-team-paragraf">Frontend Developer</p>
+            </div>
           </li>
-          <li class="our-team-text">
+          <li class="our-team-line">
             <img
               src="./images/img3.jpg"
               alt="young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair"
               width="264"
             />
-            <h3 class="benefits-item">Camila Garcia</h3>
-            <p class="our-team-paragraf">Marketing</p>
+            <div class="our-team-line">
+              <h3 class="our-team-item">Camila Garcia</h3>
+              <p class="our-team-paragraf">Marketing</p>
+            </div>
           </li>
-          <li class="our-team-text">
+          <li class="our-team-line">
             <img
               src="./images/img4.jpg"
               alt="confident-handsome-guy-posing-against-white-wall"
               width="264"
             />
-            <h3 class="benefits-item">Daniel Wilson</h3>
-            <p class="our-team-paragraf">UI Designer</p>
+            <div class="our-team-text">
+              <h3 class="our-team-item">Daniel Wilson</h3>
+              <p class="our-team-paragraf">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
 
       <!-- our portfolio -->
       <section class="our-portfolio">
-        <h2 class="our-team-title">Our Portfolio</h2>
-        <ul>
-          <li class="our-portfolio-text">
-            <img src="./images/img5.jpg" alt="violet-banking-app" width="360" />
-            <h3 class="our-portfolio-item">Banking App</h3>
-            <p class="our-portfolio-paragraf">App</p>
-          </li>
-          <li class="our-portfolio-text">
-            <img
-              src="./images/img6.jpg"
-              alt="Cashless-Payment-with-app"
-              width="360"
-            />
-            <h3 class="our-portfolio-item">Cashless Payment</h3>
-            <p class="our-portfolio-paragraf">Marketing</p>
-          </li>
-          <li class="our-portfolio-text">
-            <img
-              src="./images/img7.jpg"
-              alt="laptop_and-phone-with-open-app"
-              width="360"
-            />
-            <h3 class="our-portfolio-item">Meditation App</h3>
-            <p class="our-portfolio-paragraf">App</p>
-          </li>
-          <li class="our-portfolio-text">
-            <img
-              src="./images/img8.jpg"
-              alt="phone-with-opened-app-in-a-car"
-              width="360"
-            />
-            <h3 class="our-portfolio-item">Taxi Service</h3>
-            <p class="our-portfolio-paragraf">Marketing</p>
-          </li>
-          <li class="our-portfolio-text">
-            <img
-              src="./images/img9.jpg"
-              alt="lockscreen-witn-beautifull-wallpaper"
-              width="360"
-            />
-            <h3 class="our-portfolio-item">Screen Illustrations</h3>
-            <p class="our-portfolio-paragraf">Design</p>
-          </li>
-          <li class="our-portfolio-text">
-            <img
-              src="./images/img10.jpg"
-              alt="charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone"
-              width="360"
-            />
-            <h3 class="our-portfolio-item">Online Courses</h3>
-            <p class="our-portfolio-paragraf">Marketing</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="our-team-title">Our Portfolio</h2>
+          <ul class="our-portfolio-table">
+            <li class="our-portfolio-line">
+              <img
+                src="./images/img5.jpg"
+                alt="violet-banking-app"
+                width="360"
+              />
+              <div class="our-portfolio-text">
+                <h3 class="our-portfolio-item">Banking App</h3>
+                <p class="our-portfolio-paragraf">App</p>
+              </div>
+            </li>
+            <li class="our-portfolio-line">
+              <img
+                src="./images/img6.jpg"
+                alt="Cashless-Payment-with-app"
+                width="360"
+              />
+              <div class="our-portfolio-text">
+                <h3 class="our-portfolio-item">Cashless Payment</h3>
+                <p class="our-portfolio-paragraf">Marketing</p>
+              </div>
+            </li>
+            <li class="our-portfolio-line">
+              <img
+                src="./images/img7.jpg"
+                alt="laptop_and-phone-with-open-app"
+                width="360"
+              />
+
+              <h3 class="our-portfolio-item">Meditation App</h3>
+              <p class="our-portfolio-paragraf">App</p>
+            </li>
+            <li class="our-portfolio-line">
+              <img
+                src="./images/img8.jpg"
+                alt="phone-with-opened-app-in-a-car"
+                width="360"
+              />
+              <h3 class="our-portfolio-item">Taxi Service</h3>
+              <p class="our-portfolio-paragraf">Marketing</p>
+            </li>
+            <li class="our-portfolio-line">
+              <img
+                src="./images/img9.jpg"
+                alt="lockscreen-witn-beautifull-wallpaper"
+                width="360"
+              />
+              <h3 class="our-portfolio-item">Screen Illustrations</h3>
+              <p class="our-portfolio-paragraf">Design</p>
+            </li>
+            <li class="our-portfolio-line">
+              f
+              <img
+                src="./images/img10.jpg"
+                alt="charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone"
+                width="360"
+              />
+              <h3 class="our-portfolio-item">Online Courses</h3>
+              <p class="our-portfolio-paragraf">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- <last part> -->
 
     <footer class="last-line">
       <a href="./index.html" class="second-link-logo">
-        Web
-        <span class="second-studio"> Studio </span>
+        Web<span class="second-studio"> Studio </span>
       </a>
       <p class="our-portfolio-paragraf">
         Increase the flow of customers and sales for your business with digital
