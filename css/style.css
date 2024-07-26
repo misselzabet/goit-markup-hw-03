@@ -273,7 +273,7 @@ link:focus {
 }
 
 .our-portfolio-line {
-   width:calc((100% - 48px) / 3);
+   width: calc((100% - 48px) / 3);
 
 }
 
@@ -287,6 +287,7 @@ border-top: none;
 .our-portfolio-item {
    font-size: 20px;
    line-height: 1.2;
+   margin-bottom: 8px;
 }
 
 .our-portfolio-text {
