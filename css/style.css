@@ -173,7 +173,7 @@ link:focus {
    background-color: #404BBF
 }
 .benefits{
-   padding: 120px 0;
+
 }
 .benefits-table {
    display: flex;
@@ -186,7 +186,18 @@ link:focus {
   font-weight: 400;
    width: calc((100% - 72px) / 4);
 }
-
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
 .benefits-item {
    font-size: 20px;
    line-height: 1, 2;
@@ -208,17 +219,7 @@ link:focus {
    padding: 120px 0;
    background-color: #F4F4FD;
 }
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   padding: 0;
-   border: 0;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   white-space: nowrap;
-}
+
 
 .our-team-title {
    font-size: 36px;
@@ -263,12 +264,11 @@ link:focus {
 
 
 .our-team {
-   background-color: ##F4F4FD;
+   background-color: #F4F4FD;
 }
 
 .our-portfolio{
-   padding-top: 120px;
-   padding-bottom: 120px;
+  
 }
 .our-portfolio-title {
    font-size: 36px;
