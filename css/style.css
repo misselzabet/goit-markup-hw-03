@@ -36,6 +36,9 @@ header .container {
 ul,
 ol {
    list-style: none;
+   padding-left: 0;
+   margin: 0;
+
 }
 .top-line{
    border-bottom: 1px solid #e7e9fc ;
@@ -173,6 +176,7 @@ link:focus {
    background-color: #404BBF
 }
 .benefits{
+padding: 120px 0;
 
 }
 .benefits-table {
@@ -268,7 +272,7 @@ link:focus {
 }
 
 .our-portfolio{
-  
+  padding-top: 120px 0;
 }
 .our-portfolio-title {
    font-size: 36px;
