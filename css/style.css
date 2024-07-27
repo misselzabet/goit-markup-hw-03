@@ -76,7 +76,7 @@ ol {
 
 .first-line-contact {
    display: flex;
-   gap: 24px;
+   gap: 40px;
 }
 
 .link {
@@ -172,7 +172,9 @@ link:focus {
 .butt:hover {
    background-color: #404BBF
 }
-
+.benefits{
+   padding: 120px 0;
+}
 .benefits-table {
    display: flex;
    gap: 24px;
@@ -203,6 +205,7 @@ link:focus {
    color: #2E2F42;
 }
 .our-team {
+   padding: 120px 0;
    background-color: #F4F4FD;
 }
 
