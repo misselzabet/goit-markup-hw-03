@@ -208,14 +208,25 @@ link:focus {
    padding: 120px 0;
    background-color: #F4F4FD;
 }
-
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   border: 0;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   white-space: nowrap;
+   /* Придушення переносу тексту */
+}
 .our-team-title {
    font-size: 36px;
    line-height: 1.11;
    font-weight: 700;
    text-align: center;
    padding-top: 93px;
-   padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 .our-team-table {
@@ -229,7 +240,7 @@ link:focus {
    background-color: #ffffff;
    border-radius: 0px 0px 4px 4px;
    font-weight: 400;
-   width: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team-paragraf{
